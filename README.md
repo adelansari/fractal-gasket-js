@@ -59,4 +59,6 @@ In this way, these functions work together harmoniously, each playing its part i
 
 
 ## References
-This project is inspired by the paper ["The Apollonian Packing of Circles"](https://arxiv.org/pdf/math/0101066.pdf). This paper provides a detailed mathematical explanation of the Apollonian Gasket and the Descartes Circle Theorem.
+This project is inspired by few sources:
+- ["The Apollonian Packing of Circles"](https://arxiv.org/pdf/math/0101066.pdf). This paper provides a detailed mathematical explanation of the Apollonian Gasket and the Descartes Circle Theorem.
+- ["Apollonian gaskets"](https://mathlesstraveled.com/2016/04/27/apollonian-gaskets/). The page details the Apollonian gasket, a fractal formed by infinitely nesting circles within a curvilinear triangle created by three mutually tangent circles, and hints at future posts to explain the mathematics behind it
