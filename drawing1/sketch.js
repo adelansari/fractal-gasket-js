@@ -1,12 +1,9 @@
-// All circles in the gasket
-let allCircles = [];
-// Queue for circles to process for next generation
-let queue = [];
-// Tolerance for calculating tangency and overlap
-let epsilon = 0.1;
-
-function setup() {
-  createCanvas(800, 800);
+function initializeCircles() {
+  // Clear all existing circles
+  allCircles = [];
+  queue = [];
+  // Tolerance for calculating tangency and overlap
+  epsilon = 0.1;
 
   // Initialize first circle centered on canvas
   let c1 = new Circle(-1 / (width / 2), width / 2, height / 2);
@@ -27,6 +24,22 @@ function setup() {
   queue = [[c1, c2, c3]];
 }
 
+function setup() {
+  createCanvas(800, 800);
+  initializeCircles();
+}
+
+function mousePressed() {
+  initializeCircles();
+  // Restart the draw loop
+  loop();
+}
+
+function touchStarted() {
+  initializeCircles();
+  // Restart the draw loop
+  loop();
+}
 // Check if the potential new circle is valid
 function validate(c4, c1, c2, c3) {
   // Discards too small circles to avoid infinite recursion
