@@ -70,19 +70,19 @@ main {
 }
 
 .refresh-button {
-  position: absolute; /* position the button relative to the nearest positioned ancestor */
-  top: 10px; /* position the button 10px from the top of the main section */
-  left: 50%; /* position the button 10px from the right of the main section */
-  padding: 10px 20px; /* add some padding to the button */
-  background-color: #2c3e50; /* make the button the same color as the aside section */
-  color: #ecf0f1; /* make the text color the same as the aside text color */
-  border: none; /* remove the default button border */
-  border-radius: 5px; /* round the corners of the button */
-  cursor: pointer; /* change the cursor to a pointer when hovering over the button */
-  font-size: 1em; /* make the text size the same as the body text size */
-  transition: background-color 0.3s ease; /* add a transition effect to the background color */
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
 }
 
 .refresh-button:hover {
-  background-color: rgba(231, 76, 60, 0.7); /* change the background color when hovering over the button */
+  background-color: rgba(231, 76, 60, 0.7);
 }
